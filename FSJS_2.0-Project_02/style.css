@@ -1,0 +1,108 @@
+
+body
+{
+   background: url(./assets/bg.png) no-repeat center fixed;
+   height: 100%;   
+   background-size: cover;
+   overflow: hidden;
+   padding:0px;
+   margin: 0px;
+   
+}
+/* Navbar  */
+
+.navbar
+{
+    display: flex;
+    padding: 10px 40px;
+    background-color: #000000;
+    color: #ffffff;
+    justify-content: space-between;
+   
+}
+ul {
+display: inline-flex;
+list-style-type: none;
+gap: 40px;
+position: absolute;
+left:300px;
+margin-top: 30px;
+border-left: 1px solid #e5dede;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 15px;
+}
+
+/* logo */
+img[alt="logo"]
+{
+    width:100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}  
+/* hero-section */
+.hero
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+     width: 800px;
+    margin-left: 600px;
+    
+    padding: 10px;
+    
+}
+
+div  h1
+{
+   font-family: 'Montserrat';
+   font-size: 70px;
+   font-weight: 600; 
+   word-spacing: 10px;
+   color: #ffffff;
+   margin-top: 100px;
+   text-align: center;
+}
+h1 + p
+{
+    font-family: 'Poppins';
+   font-size: 20px;
+   font-weight: 500; 
+   margin-top: -60px;
+   color: #ffffff;
+   line-height: 70px;
+}
+
+
+
+/* button */
+button
+{
+    background-color: #d12be0;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px;
+    
+}
+.button-large
+{
+   
+    width: 280px;
+    font-size: 20px;
+    border: none;
+    font-weight: 500;
+    margin-top: 50px;
+}
+button:hover
+{
+    cursor: pointer;
+}
+.button-small
+{
+    width: 160px;
+    margin-right: 90px;
+    font-size: 15px;
+}

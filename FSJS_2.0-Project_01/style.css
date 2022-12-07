@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+/* logo  */
+img[alt="brand-logo"]
+{
+    width:130px;
+      position: absolute;
+    left:300px;
+}
+/* navbar */
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin:50px 30px;
+    width:1500px
+}
+/* list */
+ul
+{
+    display: flex;
+    gap: 3em;
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #8b8a8f ;
+}
+ul li:first-child
+{
+    color: #0e0d0d;
+    font-weight: 500;
+}
+li:hover
+{
+    color: #0e0d0d;
+    font-weight: 500;
+    cursor: pointer;
+}
+.grow-list
+{
+    position: relative;
+    left: 100px;
+}
+/* button */
+button
+{   border: none;
+    border-radius: 15px;
+    background-color: #483e92;
+    color: #ffffff;
+}
+button:hover
+{
+    cursor: pointer;
+}
+.nav-button
+{
+    width:140px;
+    font-size: 15px ;
+    height: 50px;
+}
+.btn 
+{
+    margin-top: 50px;
+    margin-left:400px;
+    width: 250px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 15px;    
+}
+/* hero-container */
+.banner-container
+{
+    display: flex;
+    justify-content: center;
+    color: #342c5a;
+
+}
+div h1 
+{
+    width: 60%;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left:400px;
+    line-height: 80px;
+}
+div p
+{
+    width: 50%;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left:400px;
+    color: #7b7878;
+    
+}
+div span
+{
+    color:#5955b3;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    /> -->
+
+
+    <style>
+    
+body
+{
+   background: url(./assets/bg.png) no-repeat center fixed;
+   height: 100%;   
+   background-size: cover;
+   overflow: hidden;
+   padding:0px;
+   margin: 0px;
+   
+}
+/* Navbar  */
+
+.navbar
+{
+    display: flex;
+    padding: 10px 40px;
+    background-color: #000000;
+    color: #ffffff;
+    justify-content: space-between;
+   
+}
+ul {
+display: inline-flex;
+list-style-type: none;
+gap: 40px;
+position: absolute;
+left:300px;
+margin-top: 30px;
+border-left: 1px solid #e5dede;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 15px;
+}
+
+/* logo */
+img[alt="logo"]
+{
+    width:100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}  
+/* hero-section */
+.hero
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+     width: 800px;
+    margin-left: 600px;
+    
+    padding: 10px;
+    
+}
+
+div  h1
+{
+   font-family: 'Montserrat';
+   font-size: 70px;
+   font-weight: 600; 
+   word-spacing: 10px;
+   color: #ffffff;
+   margin-top: 100px;
+   text-align: center;
+}
+h1 + p
+{
+    font-family: 'Poppins';
+   font-size: 20px;
+   font-weight: 500; 
+   margin-top: -60px;
+   color: #ffffff;
+   line-height: 70px;
+}
+
+
+
+/* button */
+button
+{
+    background-color: #d12be0;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px;
+    
+}
+.button-large
+{
+   
+    width: 280px;
+    font-size: 20px;
+    border: none;
+    font-weight: 500;
+    margin-top: 50px;
+}
+button:hover
+{
+    cursor: pointer;
+}
+.button-small
+{
+    width: 160px;
+    margin-right: 90px;
+    font-size: 15px;
+}
+
+
+    </style>
+    <title>Crypto Market</title>
+  </head>
+  <body>
+    <div class="container">
+      <section aria-label="navbar">
+        <nav class="navbar">
+          <div>
+            <img src="./assets/white-logo.png" alt="logo" class="logo" />
+          </div>
+          <div class="line"></div>
+          <div class="grow-list">
+            <ul class="list">
+              <li class="list-item">Apps</li>
+              <li class="list-item">DAO</li>
+              <li class="list-item">Technology</li>
+              <li class="list-item">Token</li>
+              <li class="list-item">Contributors</li>
+            </ul>
+          </div>
+          <div>
+            <button class="button-small">Buy 1 Token</button>
+          </div>
+        </nav>
+      </section>
+      <!-- Hero Section -->
+      <section aria-label="hero">
+        <div class="hero">
+          <h1 class="hero-heading">Lets build a better tomorrow, together.</h1>
+          <p class="hero-description">
+            Buy 1 Token. Join the DAO. Change the world
+          </p>
+          <button class="button-large">Request Early Access</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
