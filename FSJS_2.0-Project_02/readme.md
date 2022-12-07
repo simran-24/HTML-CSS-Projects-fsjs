@@ -1,5 +1,4 @@
-# Project1
-
+# Project 2
 **This frontend project is made up by using core HTML and core CSS**
 
 ### Actual Output : -  
