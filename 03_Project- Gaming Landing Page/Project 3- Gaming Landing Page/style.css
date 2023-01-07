@@ -1,0 +1,598 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+}
+
+/* ==========================================================Section 1========================================= */
+.section-1
+{
+   
+    position: relative;
+    padding: 10px 200px;
+
+}
+/* background-image */
+.bg-image
+{
+    filter: brightness(50%);
+    width: 100vw;
+    height: 900px;
+    position: absolute;
+}
+
+/* navbar container */
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+/* Logo image */
+.Logo-image
+{
+  width: 200px;
+}
+/* List of menu */
+.section-1 ul
+{
+    display: flex;
+    position: absolute;
+    margin-left:300px;
+    list-style-type: none;
+    gap: 1em;
+    color: #dedcdc;
+    font-weight: 500;
+    font-size: 19px;  
+}
+.section-1 li
+{
+    padding: 10px;    /* it will reflect while hovering on each menu*/
+}
+/* buttons in navbar */
+.button-nav >  button
+{
+    border: none;
+    color: #efeaea;
+    font-size: 20px;
+    background: transparent;
+    padding: 20px 40px;
+    border: none;
+
+}
+.button-nav > button:hover , li:hover
+{
+    background:#F4694C; 
+    cursor: pointer;
+
+}
+
+/* Description   */
+.upper-section ,.lower-section
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.upper-section h1
+{
+   font-size: 60px; 
+   font-weight: 900;
+   width: 700px;
+   color: #ffffff;
+   margin-top: 100px;
+   padding-top:40px ;
+}
+
+.play-btn
+{
+    margin-right: 300px;
+    width: 100px;
+}
+.play-btn:hover
+{
+    cursor: pointer;
+}
+
+.upper-section p
+{
+    font-size: 18px;
+    font-weight: 500;
+    color:#a5a3a3;
+    width: 600px;
+}
+/* ============================Section-1 Lower-part======================================================================= */
+.lower-section
+{
+    color: #ffffff;
+    margin-top: 50px;
+}
+.button-desc >  button
+{
+    border: 2px solid #ffffff;
+    color: #efeaea;
+    background: transparent;
+    padding: 20px 50px;
+    font-size: 22px;
+    margin-right: 30px;
+    margin-top: 60px;
+    
+}
+.button-desc >  button:hover
+{
+    background:#F4694C; 
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+.caption-video
+{
+    padding-right: 140px;
+}
+.caption-video h1
+{
+    font-size: 30px;
+    font-weight: lighter;
+    width:300px;
+}
+.caption-video img
+{
+    position: relative;
+}
+.caption-video :first-child
+{
+    right: 70px;
+    top:50px;
+    width: 50px;
+}
+.caption-video :last-child
+{
+     left: 400px;
+    bottom: 55px;
+    width: 75px;
+}
+/* ==============================================Section-2================================================ */
+.section-2
+{
+    padding-top: 200px;
+}
+.head
+{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.games
+{
+    display: flex;
+    width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.dif-games > img
+{
+    width: 390px;
+    height: 400px;
+    margin-right:10px;
+    object-fit: cover;
+    object-position: center;
+
+}
+/* ============================== */
+.img-blur
+{
+    background: url("./Assets/Photos/image 2.png");
+    background-position: bottom;
+    position: absolute;
+    top:1740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:none;
+    filter: blur(5px);
+    filter: brightness(20%); 
+    width:390px;
+    height: 130px;
+}
+.blur
+{
+    width:390px;
+    height: 130px;
+    position: relative;
+    bottom: 120px;
+    background-color: rgba(256,256,256,0.5);     
+}
+.star
+{
+    position: relative;
+    bottom: 150px ;
+}
+/* =================================================     */
+    
+
+.blur h1,span, .star
+{
+    margin-left: 30px;
+}
+.blur h1
+{
+    font-size: 25px;
+    color: #fffefe; 
+    padding-top: 10px;
+}
+.blur span
+{
+    font-size: 18px;
+    color:#1b1b1b;
+   position: relative;
+   bottom: 20px;
+    
+}
+.blur > button
+{
+    border: none;
+    color: #efeaea;
+    font-size: 18px;
+    padding: 10px 20px;
+    background:#F4694C; 
+    cursor: pointer;
+    margin-left: 150px;
+    height: 50px;
+
+}
+.blur > button:hover
+{
+    background-color: #efeaea;
+    font-weight: 400;
+    color:#F4694C;    
+
+}
+
+.star > img
+{
+    width: 18px;
+    
+}
+
+/* =======================================================Section-3=============================================================== */
+.section-3
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px ;
+}
+.section-3 img
+{
+    width: 650px;
+    height: 500px;
+    object-position: center;
+    object-fit: cover;
+}
+.section-3 div
+{
+    width: 38%;
+}
+.section-3 h1
+{
+    font-size: 50px;
+  
+}
+.section-3 p
+{
+    font-weight: 500 ;
+    font-size: 18px;
+    color: #929191;
+}
+.section-3 button
+{
+    font-size: 21px;
+    font-weight: 500;
+    padding: 20px 40px;
+    border: 2px solid #F4694C;
+    color:#F4694C; 
+    background-color: transparent;
+    cursor: pointer;
+    margin-top:120px;
+    margin-right: 20px;
+  
+  
+}
+.section-3 button:hover
+{
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #F4694C;
+}
+
+/* ================================Section-4============================================================ */
+.section-4
+{
+    padding-bottom: 100px;
+}
+.heading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.heading h1
+{
+    font-size: 50px;
+    font-weight: 800;
+    width: 600px;
+}
+.arrows
+{
+    display: flex;
+    align-items: center;
+    
+}
+.left
+{
+    background-color:#FDE1DB;
+    width: 40px;
+    padding: 35px 20px;
+    margin-right: 10px;
+}
+.right
+{
+    background-color: #F4694C;
+    width: 40px;
+    padding: 35px 20px;
+    margin-right: 20px;
+}
+/* ===================================================== */
+.this-week
+{
+    display: flex;
+    padding: 0px 100px;
+    padding-top: 50px;
+}
+.one
+{
+    display: flex;
+    padding-left: 100px;    
+
+}
+.one img
+{
+    width:300px;
+}
+
+ .game-desc h1
+{
+    width:400px;
+    padding-left: 60px;
+}
+.game-desc > h2
+{
+    color: #F4694C;
+    font-size: 20px;
+    font-weight:500;
+    padding-left: 60px;
+    
+}
+.game-desc >  h3  
+{
+    width:400px;
+    padding-left: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #929191;
+} 
+/* Button */
+.game-desc :last-child  
+{
+    margin-left: 60px;
+    width: 200px;
+    height: 70px;
+    font-size: 22px;
+    background-color: #F4694C;
+    color: #ffffff;
+    border: none;
+} 
+.game-desc > button:hover  
+{
+
+   color: #F4694C;
+   border: 2px solid #F4694C;
+   background-color: transparent;
+
+} 
+
+/* ==============================================section-5====================================================== */
+.section-5 
+{
+    background-color: #080808;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+   
+}
+.head-1  h1
+{
+    color: #ffffff;
+    font-size: 50px;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+.most-played
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 20px;
+   
+} 
+.img-1 > img
+{
+    width: 540px;
+    height: 670px;
+   
+   
+}
+.para-img
+{
+    margin-left: 10px;
+    margin-top: 120px;
+    width:1300px;
+}
+.para > p
+{
+    color: #848282;
+    width: 700px;
+    font-size: 18px;
+    word-spacing: 2px;
+    margin-left: 60px;
+}
+.img
+{
+    display: flex;
+    margin-top: 130px;
+    background:url("./Assets/Icons/GAMES OF THE WORLD.svg");
+    background-size: 1200px;
+    background-position: top 10px right 1px ;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+ 
+   
+}
+.img > img:first-child
+{
+    width: 400px;
+    height: 520px;
+    margin: 70px;
+  
+}
+.img > img:last-child
+{
+    width: 400px;
+    height: 350px;
+   margin-top: 240px;
+ 
+}
+
+/* =================================================section-6========================================== */
+.section-6
+{
+    margin-top: 150px;
+    background-color: #080808;
+    text-align: center;
+
+}
+.section-6 img
+{
+    width: 1800px;
+    filter: brightness(50%);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.section-6 h1,p
+{
+    position: absolute;
+}
+.section-6 h1
+{
+   width:800px;
+   color: #ffffff;
+   font-size: 50px;
+   top: 5200px;
+   left:600px;
+}
+.section-6 p
+{
+    color: #929191;
+    width:600px;
+    font-size:20px;
+    font-weight: 500;
+    top: 5400px;
+    left:700px;
+}
+.section-6 > button
+{  
+    position: absolute;
+    top: 5520px;
+    left:850px;
+    margin-left: 60px;
+    width: 200px;
+    height: 70px;
+    font-size: 22px;
+    background-color: #F4694C;
+    color: #ffffff;
+    border: none;
+} 
+ .section-6 >  button:hover
+{
+   color: #F4694C;
+   background-color: #ffffff; 
+   font-weight: 600;
+   cursor: pointer;
+} 
+ /* ===================================footer====================================  */
+.section-7
+{
+    background-color: #080808;
+    padding-bottom: 100px;
+}
+ .footer
+{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+
+}
+.footer-col1 ,.footer-col2,.footer-col3,.footer-col4,.footer-col5
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+.footer h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.footer p{
+    width:300px;
+    padding-top: 70px;
+    font-size: 18px;
+    color: #848282;
+
+}
+.social-media
+{
+    padding-top: 120px;
+}
+.social-media > img
+{
+    width:50px;
+    margin-right: 10px;
+}
+.footer ,span{
+    color: #9d9999;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+hr
+{
+    background-color: #5d5d5d;
+    height: 1px;
+    
+}
