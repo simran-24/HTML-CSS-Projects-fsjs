@@ -1,0 +1,36 @@
+.bg
+{
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 90%);
+    background:linear-gradient(170deg ,#FDFEFF,#EAF5FF);
+    width: 100vw;
+    height: 100vh;
+}
+.section-1,nav
+{
+    position: absolute;
+    
+}
+nav
+{
+    top:60px;
+    display: flex;
+    justify-content: space-between;
+    left:150px;
+    width:1400px;
+}
+nav img
+{
+    width:150px;
+}
+nav ul
+{
+    display: flex;
+    gap: 3em;
+    
+}
+nav > ul > li{
+    font-size: 25px;
+    font-weight: 700;
+    list-style-type: none;
+    
+}
