@@ -1,20 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display:ital@1&family=Poppins:wght@500;700;900&family=Roboto+Mono:wght@500&family=Roboto:wght@400;500;700&family=Rubik&display=swap');
+
+body
+{
+    font-family: "Poppins";
+
+}
 .bg
 {
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 90%);
-    background:linear-gradient(170deg ,#FDFEFF,#EAF5FF);
+    background:linear-gradient(170deg ,#FDFEFF,#bbcad8);
     width: 100vw;
     height: 100vh;
 }
 .section-1,nav
 {
     position: absolute;
-    
 }
 nav
 {
     top:60px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     left:150px;
     width:1400px;
 }
@@ -26,11 +33,155 @@ nav ul
 {
     display: flex;
     gap: 3em;
+    align-items: center;
     
 }
 nav > ul > li{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 700;
     list-style-type: none;
+    color:#484646;
     
+}
+.down-arrow{
+    border: solid #484646;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 2px;
+    left:3px
+}
+ul button:last-child
+{
+    width: 180px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #a96eed;
+    border-radius: 40px;
+    color: #a96eed;
+    font-weight: 600;
+
+}   
+
+/* ======================================.section-1===================================== */
+.section-1
+{
+    top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+    margin: 0px 200px;
+    /* border: 2px solid yellow; */
+}
+.left{
+    padding-top: 100px;
+}
+.left > span
+{
+    width: 180px;
+    padding: 20px;
+    font-size: 20px;
+    border:none;
+    background-color: #e8dcf7;
+    border-radius: 40px;
+    color: #895bbd;
+    font-weight: 500; 
+}
+img[alt="bright"]
+{
+    width:30px;
+    position: relative;
+    top: 8px;
+    padding-right: 10px;
+}
+a:visited ,a,:link
+{
+    color: #895bbd;
+}
+
+.left > h1
+{
+    font-size: 55px;
+    width: 560px;
+    line-height: 70px;
+}
+.left p
+{
+    font-size: 20px;
+    width:630px;
+    color: #979292;
+}
+.left > button
+{
+    width: 180px;
+    padding: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    /* border: 2px solid #a96eed; */
+    border-radius: 40px;
+    color: #8545ce;
+    font-weight: 700;
+}
+#first-block  button:hover
+{
+    background-color: #8545ce;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.right
+{
+  
+   
+    padding-top: 40px;
+}
+.right > img
+{
+    width:700px;
+
+}
+/* =======================================================section-2================================================================ */
+
+.second
+{
+    font-size: 20px;
+    width: 180px;
+    padding: 10px ;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    background-color: #e4d6f5e6;
+    border-radius: 40px;
+    color: #895bbd;
+}
+.second > img
+{
+    width:34px;
+    position: relative;
+    top:4px;
+    padding-right: 15px;
+   
+}
+.heading > h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;    
+}
+.heading p
+{
+    width:900px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #999696;
+    text-align: center;
 }
