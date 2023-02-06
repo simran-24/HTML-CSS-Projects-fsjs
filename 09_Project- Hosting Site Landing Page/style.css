@@ -34,11 +34,21 @@
         font-size: 20px;
         font-weight: 600;
     }
+    nav >ul > li:hover
+    {
+        font-size: 22px;
+        text-decoration: underline;
+    }
     .nav-container:hover ,button
     {
         cursor: pointer;
-    }
 
+    }
+    nav > button:hover
+    {
+        background: #ffffff;
+        color: #0C8BFD;
+    }
     /* Login button Navbar  */
     .btn-login
     {
@@ -277,11 +287,11 @@
         display: flex;
         justify-content: space-between;
     }
-    .feature-name > button:hover
-    {
-        border: none;
-        background-color:  #0C8BFD;
-        color: #ffffff;
+        .feature-name > button:hover
+        {
+            border: none;
+            background-color:  #0C8BFD;
+            color: #ffffff;
     }
     .Detailed-features
     {
@@ -431,20 +441,21 @@
         font-size: 25px;
     }
 
-    .lower-1 button ,.lower-3 button
+    .lower-1 button ,.lower-3 button 
     {
         background: #0C8BFD;
         color: #fffefe;
     }
+ 
     .lower-1 button
     {
         margin-top:45px;
     }
-    .lower-2 button
-    {
+    .lower-2 button{
         color: #0C8BFD;
         background: #fffefe; 
     }
+   
     /* ================================================Section 4 ================================================================= */
     .section-4
     {
@@ -575,25 +586,12 @@ form > button
     height: 70px;
     font-size: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* ==============================================section-6==================================================================== */
+form > button:hover
+{
+    color: #0C8BFD;
+    background: #fffefe; 
+}
+/* ==============================================section-6==================================================================== */
 
     .section-6
     {
